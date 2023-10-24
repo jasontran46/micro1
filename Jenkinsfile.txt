@@ -1,1 +1,1 @@
-pipeline {	agent {label "windows"}	stages {		stage('Hello') {			steps {				echo "hello from Jenkinsfile"			}		}	}}
+pipeline {	agent any	stages {		stage('Hello') {			steps {				echo "hello from Jenkinsfile"			}		}	}}
